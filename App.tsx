@@ -11,12 +11,12 @@ export default function App() {
 	return (
 		<ErrorBoundary>
 			<SafeAreaProvider>
-				<NavigationContainer>
-					<NativeBaseProvider>
-						<StatusBar animated={true} backgroundColor="#61dafb" />
-						<Root />
-					</NativeBaseProvider>
-				</NavigationContainer>
+				{/* <NavigationContainer> */}
+				<NativeBaseProvider>
+					<StatusBar animated={true} backgroundColor="#61dafb" />
+					<Root />
+				</NativeBaseProvider>
+				{/* </NavigationContainer> */}
 			</SafeAreaProvider>
 		</ErrorBoundary>
 	);
